@@ -13,6 +13,16 @@ Unzip the folder once downloaded.
 
 -------------------------
 
+
+### Packages reuirements:
+
+To create an environment identical to the one we used to run the code:
+conda create --name myenv --file spec-file.txt
+
+-------------------------
+
+
+
 ### Run code:
 
 XGBoost (run on GPU machine):
@@ -42,6 +52,3 @@ python main.py --dataset_id=3 --task=multi --model_name=random_forest --seed=1 -
 
 -----------------
 
-
-To create an environment identical to the one we used to run the code:
-conda create --name myenv --file spec-file.txt
